@@ -1,0 +1,202 @@
+/* most difficult was to center quote, spent entire time trying . separate div paosition and height in percentage.
+javascript*/
+
+
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+
+@media all and (min-width:1100px){
+  .jumbotron{
+    min-height:700px;}
+  
+
+  h1, h2, h3{
+    font-size:3em;
+  }
+ 
+}
+@media all and (min-width:950px){
+   nav{
+  position:fixed;
+  height:100px;
+  width:100%;
+  background-color:#212020;
+  z-index:1;
+  padding-right: 20px;
+}
+  
+  ul{
+   float:right;
+}
+  
+    nav li {
+  display: inline-block;
+  padding:15px;
+  float:left;
+}
+  
+    button{
+    display: inline-block;
+  }
+  
+.icon{
+  position:absolute;
+  left:10px;
+  top: -23px;
+  }
+   
+  nav a {
+  font-size: 1.5em;
+    padding:15px;
+    
+  .form-group{
+  margin: 70px;
+  }
+
+}
+}
+@media all and (min-width:700px){
+  #container-home{
+  position: relative;
+  left:30%;
+  top:20%;}
+}
+
+
+/* -------------top general style---------------*/
+.jumbotron {
+  background-image: URL("https://cdn-images-1.medium.com/max/2000/1*m5iv6OcqsGT171W1HOv0Tg.jpeg");
+  background-size: cover;
+  height:100%;
+  margin-bottom:-1%;
+  padding-top:10%;
+  /*float: left; 
+  width: 100%;*/
+}
+#container-home{
+  width:50%;
+  height:100%;
+  margin: 0 auto;
+  text-shadow: 7px 7px 7px black;
+ /* position: relative;
+  left:60%;
+  top:20%;
+  float:right;
+  display:block;*/
+
+}
+
+.container-center{
+  background-color:#ededed;
+  padding: 0 5%;
+  margin:0 auto;
+  width:80%;
+  text-align: center;
+}
+
+
+.accent-text{
+  color:#241035;
+  padding: 10%;
+  font-weight: bold;
+    
+}
+
+h1, h2, h3{
+  font-family: 'Amatic SC';
+  color:white;
+}
+
+.jumbotron button{
+  background-color:#241035;
+  }
+
+/* -------------quote style---------------*/
+.quote{
+  display: inline-block;
+  height: 40%;
+  text-align: center;
+  position: relative;
+  top:30%;
+  padding:0 10px 0 10px;
+}
+ .accent img{
+    max-height:200px;
+}
+
+
+
+/* -------------button style---------------*/
+button{
+  padding:1%;
+  margin:2%;
+  box-shadow: 5px 5px 5px black;
+  display:block;
+  
+}
+a{
+  color:#ededed;
+}
+a:link{
+  text-decoration: none;
+  
+}
+a:hover{
+  color:#ededed;
+}
+
+/* -----------nav bar----------------------*/
+nav a {
+  display:inline-block;
+  text-decoration: none;
+  color: white;
+  padding:5px;
+}
+ul{
+  list-style: none;
+}
+
+nav a:hover, a:active{
+  text-decoration:none;
+  color:black;
+}
+
+.icon{
+  font-family: 'Amatic SC';
+  font-size:2em;
+}
+nav{
+  height:10%;
+  width:100%;
+  background-color:#212020;
+  z-index:1;
+}
+
+/* -----------gallery style----------------------*/
+.image-wrapper{
+  border-style:solid;
+  border-width:1px;
+  border-color:#dbdbdb;
+  border-radius:10px;
+  padding:5%;
+  margin:5% 0;
+  box-shadow: 10px 10px 10px #969696;
+}
+/* -----------form style----------------------*/
+
+
+
+/* -------------footer style---------------*/
+footer{
+  height:7%;
+  background-color:#241035;
+  margin-top:15px;
+  text-align:center;
+  color:black;
+  font-weight: bold;
+} 
+  
+/*
+other font ideas
+font-family: 'Poiret One', cursive;
+font-family: 'Cormorant Garamond', serif;
+*/
